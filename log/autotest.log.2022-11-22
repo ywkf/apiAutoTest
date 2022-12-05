@@ -1,0 +1,65 @@
+2022-11-22 14:54:46,666 INFO [api_mp.py(__init__:15)] - 正在初始化自媒体登录url: http://localhost:9090/mp/v1_0/authorizatinons
+2022-11-22 14:54:46,667 INFO [api_mp.py(__init__:18)] - 正在初始化自媒体发布文章url: http://localhost:9090/mp/v1_0/articles
+2022-11-22 14:54:46,668 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据: {'mobile': '19933333333', 'code': '123456'}
+2022-11-22 14:54:46,677 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAi'}
+2022-11-22 14:54:46,677 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2022-11-22 14:58:22,855 INFO [api_mp.py(__init__:15)] - 正在初始化自媒体登录url: http://localhost:9090/mp/v1_0/authorizatinons
+2022-11-22 14:58:22,856 INFO [api_mp.py(__init__:18)] - 正在初始化自媒体发布文章url: http://localhost:9090/mp/v1_0/articles
+2022-11-22 14:58:22,861 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据: {'mobile': 19933333333, 'code': 123456}
+2022-11-22 14:58:22,875 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAi'}
+2022-11-22 14:58:22,880 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2022-11-22 15:57:07,593 INFO [api_mp.py(__init__:15)] - 正在初始化自媒体登录url: http://localhost:9090/mp/v1_0/authorizatinons
+2022-11-22 15:57:07,593 INFO [api_mp.py(__init__:18)] - 正在初始化自媒体发布文章url: http://localhost:9090/mp/v1_0/articles
+2022-11-22 15:57:07,598 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据: {'mobile': 19933333333, 'code': 123456}
+2022-11-22 15:57:07,611 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAi'}
+2022-11-22 15:57:07,612 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2022-11-22 15:57:07,616 INFO [api_mp.py(api_mp_article:41)] - 正在调用自媒体发布文章接口，请求数据: {'title': '', 'content': '', 'channel_id': '', 'cover': {'type': 0, 'image': []}}
+2022-11-22 15:57:07,621 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2022-11-22 16:00:16,565 INFO [api_mp.py(__init__:15)] - 正在初始化自媒体登录url: http://localhost:9090/mp/v1_0/authorizatinons
+2022-11-22 16:00:16,565 INFO [api_mp.py(__init__:18)] - 正在初始化自媒体发布文章url: http://localhost:9090/mp/v1_0/articles
+2022-11-22 16:00:16,566 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据: {'mobile': 19933333333, 'code': 123456}
+2022-11-22 16:00:16,576 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAi'}
+2022-11-22 16:00:16,576 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2022-11-22 16:00:16,583 INFO [api_mp.py(api_mp_article:41)] - 正在调用自媒体发布文章接口，请求数据: {'title': 'test_title', 'content': 'test_content', 'channel_id': 123123, 'cover': {'type': 0, 'image': []}}
+2022-11-22 16:00:16,586 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2022-11-22 17:11:53,171 INFO [api_mp.py(__init__:15)] - 正在初始化自媒体登录url: http://localhost:9090/mp/v1_0/authorizatinons
+2022-11-22 17:11:53,172 INFO [api_mp.py(__init__:18)] - 正在初始化自媒体发布文章url: http://localhost:9090/mp/v1_0/articles
+2022-11-22 17:11:53,176 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据: {'mobile': 19933333333, 'code': 123456}
+2022-11-22 17:11:53,188 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAi'}
+2022-11-22 17:11:53,189 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2022-11-22 17:11:53,194 INFO [api_mp.py(api_mp_article:41)] - 正在调用自媒体发布文章接口，请求数据: {'title': 'test_title', 'content': 'test_content', 'channel_id': 7, 'cover': {'type': 0, 'image': []}}
+2022-11-22 17:11:53,198 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2022-11-22 17:11:53,206 ERROR [test02_mis.py(test01_login:30)] - Expecting value: line 1 column 1 (char 0)
+2022-11-22 17:15:31,620 INFO [api_mp.py(__init__:15)] - 正在初始化自媒体登录url: http://localhost:9090/mp/v1_0/authorizatinons
+2022-11-22 17:15:31,620 INFO [api_mp.py(__init__:18)] - 正在初始化自媒体发布文章url: http://localhost:9090/mp/v1_0/articles
+2022-11-22 17:15:31,621 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据: {'mobile': 19933333333, 'code': 123456}
+2022-11-22 17:15:31,632 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAi'}
+2022-11-22 17:15:31,633 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2022-11-22 17:15:31,636 INFO [api_mp.py(api_mp_article:41)] - 正在调用自媒体发布文章接口，请求数据: {'title': 'test_title', 'content': 'test_content', 'channel_id': 7, 'cover': {'type': 0, 'image': []}}
+2022-11-22 17:15:31,640 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2022-11-22 17:15:31,647 ERROR [test02_mis.py(test01_login:30)] - Expecting value: line 1 column 1 (char 0)
+2022-11-22 17:17:19,381 INFO [api_mp.py(__init__:15)] - 正在初始化自媒体登录url: http://localhost:9090/mp/v1_0/authorizatinons
+2022-11-22 17:17:19,381 INFO [api_mp.py(__init__:18)] - 正在初始化自媒体发布文章url: http://localhost:9090/mp/v1_0/articles
+2022-11-22 17:17:19,385 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据: {'mobile': 19933333333, 'code': 123456}
+2022-11-22 17:17:19,396 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAi'}
+2022-11-22 17:17:19,396 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2022-11-22 17:17:19,401 INFO [api_mp.py(api_mp_article:41)] - 正在调用自媒体发布文章接口，请求数据: {'title': 'test_title', 'content': 'test_content', 'channel_id': 7, 'cover': {'type': 0, 'image': []}}
+2022-11-22 17:17:19,404 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2022-11-22 17:17:19,412 ERROR [test02_mis.py(test01_login:30)] - Expecting value: line 1 column 1 (char 0)
+2022-11-22 17:18:53,677 INFO [api_mp.py(__init__:15)] - 正在初始化自媒体登录url: http://localhost:9090/mp/v1_0/authorizatinons
+2022-11-22 17:18:53,677 INFO [api_mp.py(__init__:18)] - 正在初始化自媒体发布文章url: http://localhost:9090/mp/v1_0/articles
+2022-11-22 17:18:53,679 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据: {'mobile': 19933333333, 'code': 123456}
+2022-11-22 17:18:53,689 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAi'}
+2022-11-22 17:18:53,689 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2022-11-22 17:18:53,694 INFO [api_mp.py(api_mp_article:41)] - 正在调用自媒体发布文章接口，请求数据: {'title': 'test_title', 'content': 'test_content', 'channel_id': 7, 'cover': {'type': 0, 'image': []}}
+2022-11-22 17:18:53,697 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2022-11-22 17:18:53,704 ERROR [test02_mis.py(test01_login:30)] - Expecting value: line 1 column 1 (char 0)
+2022-11-22 17:21:15,538 INFO [api_mp.py(__init__:15)] - 正在初始化自媒体登录url: http://localhost:9090/mp/v1_0/authorizations
+2022-11-22 17:21:15,539 INFO [api_mp.py(__init__:18)] - 正在初始化自媒体发布文章url: http://localhost:9090/mp/v1_0/articles
+2022-11-22 17:21:15,542 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据: {'mobile': 19933333333, 'code': 123456}
+2022-11-22 17:21:15,553 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAi'}
+2022-11-22 17:21:15,553 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2022-11-22 17:21:15,557 INFO [api_mp.py(api_mp_article:41)] - 正在调用自媒体发布文章接口，请求数据: {'title': 'test_title', 'content': 'test_content', 'channel_id': 7, 'cover': {'type': 0, 'image': []}}
+2022-11-22 17:21:15,560 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2022-11-22 17:21:15,567 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAi'}
+2022-11-22 17:21:15,568 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法

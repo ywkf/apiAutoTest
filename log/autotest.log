@@ -1,0 +1,24 @@
+2022-12-05 09:31:45,101 INFO [api_mp.py(__init__:15)] - 正在初始化自媒体登录url: http://localhost:9090/mp/v1_0/authorizations
+2022-12-05 09:31:45,114 INFO [api_mp.py(__init__:18)] - 正在初始化自媒体发布文章url: http://localhost:9090/mp/v1_0/articles
+2022-12-05 09:31:45,130 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据: {'mobile': 19933333333, 'code': 123456}
+2022-12-05 09:31:45,249 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAi'}
+2022-12-05 09:31:45,249 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2022-12-05 09:31:45,254 INFO [api_mp.py(api_mp_article:41)] - 正在调用自媒体发布文章接口，请求数据: {'title': 'test_title', 'content': 'test_content', 'channel_id': 7, 'cover': {'type': 0, 'image': []}}
+2022-12-05 09:31:45,259 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2022-12-05 09:31:45,263 INFO [api_mis.py(__init__:15)] - 正在初始化后台管理登录url: http://localhost:9090/mis/v1_0/authorizations
+2022-12-05 09:31:45,264 INFO [api_mis.py(__init__:18)] - 正在初始化后台管理查询文章url: http://localhost:9090/mis/v1_0/articles
+2022-12-05 09:31:45,264 INFO [api_mis.py(__init__:21)] - 正在初始化后台管理审核文章url: http://localhost:9090/mis/v1_0/articles
+2022-12-05 09:31:45,265 INFO [api_mis.py(api_mis_login:32)] - 正在调用后台管理登录接口，请求数据为: {'account': 19933333333, 'password': 123456}
+2022-12-05 09:31:45,268 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAi'}
+2022-12-05 09:31:45,269 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2022-12-05 09:31:45,274 INFO [api_mis.py(api_mis_search:45)] - 正在调用后台管理查询文章接口，请求数据为: {'title': 'test_title', 'channel': '数据库'}
+2022-12-05 09:31:45,277 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2022-12-05 09:31:45,288 INFO [api_mis.py(api_mis_audit:58)] - 正在调用后台管理审核文章接口，请求数据为: {'article_ids': [123], 'status': 2}
+2022-12-05 09:31:45,291 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2022-12-05 09:31:45,304 INFO [api_app.py(__init__:17)] - 正在初始化app登录url: http://localhost:9090/app/v1_0/authorizations
+2022-12-05 09:31:45,304 INFO [api_app.py(__init__:20)] - 正在初始化app查询文章url: http://localhost:9090/app/v1_0/authorizations
+2022-12-05 09:31:45,305 INFO [api_app.py(api_app_login:25)] - 正在调用app登录接口，请求数据为: {'mobile': 19933333333, 'code': 123456}
+2022-12-05 09:31:45,309 INFO [tool.py(common_token:14)] - 正在提取token，提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAi'}
+2022-12-05 09:31:45,310 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
+2022-12-05 09:31:45,314 INFO [api_app.py(api_app_article:38)] - 正在调用app查询频道下文章接口，请求数据为: {'channel_id': 7, 'timestamp': 1670203905, 'with_top': 1}
+2022-12-05 09:31:45,318 INFO [tool.py(common_assert:20)] - 正在调用公共断言方法
